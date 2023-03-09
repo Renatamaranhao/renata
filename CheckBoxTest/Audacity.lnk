@@ -1,0 +1,11 @@
+import javax.swing.AbstractAction.JFrame;
+
+public class CheckBoxTest{
+    public static void main( String[] args)
+    {
+        CheckBoxFrame checkBoxFrame = new CheckBoxFrame();
+        CheckBoxFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        CheckBoxFrame.setSize(275,100);
+        CheckBoxFrame.setVisible(true);
+    }
+}
